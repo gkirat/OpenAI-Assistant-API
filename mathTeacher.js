@@ -1,7 +1,7 @@
 import {OpenAI} from "openai";
 
 const openai = new OpenAI({
-    apiKey:"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",
+    apiKey:"Enter your own api key",
 })
 
 const assistant = await openai.beta.assistants.create({
@@ -26,10 +26,10 @@ const assistant = await openai.beta.assistants.create({
       },],
     model:"gpt-3.5-turbo-1106",
 
-//   });
+  });
   // const thread = await openai.beta.threads.retrieve("thread_wrqhbJxNGpeuN23ikYSXagap");
   const thread = await openai.beta.threads.create();
-  const assistant = "asst_PPg1w0SGMVjjxm23VSLY9lcm"
+  // const assistant = "asst_PPg1w0SGMVjjxm23VSLY9lcm"
   // const thread = "thread_wrqhbJxNGpeuN23ikYSXagap"
   // console.log( "this is the thread id for testing assistant api " + thread.id)
 
