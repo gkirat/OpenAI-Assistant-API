@@ -1,7 +1,7 @@
 import {OpenAI} from "openai";
 
 const openai = new OpenAI({
-    apiKey:"Enter your own APi key",
+    apiKey:"Enter your own API key",
 })
 
 // const thread = "thread_V0oJwsTX8v4diP4p0BUvriDz"
